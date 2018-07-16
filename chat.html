@@ -48,27 +48,47 @@
 		</div>
 	</header>
 
-<!-- -------------------NAVI----------------------- -->
+<!-- -------------------MAIN----------------------- -->
 
-	<nav class="tab-bar">
-		<a href="index.html" class="tab-bar_tab">
-			<i class="fa fa-user"></i>
-			<span class="tab-bar_title">Friends</span>
-		</a>
-		<a href="chats.html" class="tab-bar_tab tab-bar_tab--selected">
-			<i class="fa fa-comment"></i>
-			<span class="tab-bar_title">Chats</span>
-		</a>
-		<a href="find.html" class="tab-bar_tab">
-			<i class="fa fa-search"></i>
-			<span class="tab-bar_title">Find</span>
-		</a>
-		<a href="more.html" class="tab-bar_tab">
-			<i class="fa fa-ellipsis-h"></i>
-			<span class="tab-bar_title">More</span>
-		</a>
+	<main class="chat">
+		<!-- date divider -->
+		<div class="date-divider chat_message-from-me">
+			<span class="date-divider_text">
+				Tuesday, July 17, 2018
+			</span>
+		</div>
+		<div class="chat_message">
+			<span class="chat_message-time">10:23</span>
+			<span class="chat_message-body">
+				Do you want to eat jjimdak for lunch together?
+			</span>
+		</div>
+		<!-- chat sent from the left side -->
+		<div class="chat_message chat_message--to">
+			<img src="images/avatarpbk.jpg" class="chat_message-avatarpbk"></img>
+			<div class="chat_message-center">
+				<h3 class="chat_message-username">Park Bokyung</h3>
+				<span class="chat_message-body">
+					Absolutely yes!
+				</span>
+			</div>
+			<span class="chat_message-time">10:28</span>
+		</div>
 
-	</nav>
+	</main>
+
+<!-- ------------BOTTOM COLUMN----------------------- -->
+	<div class="type-message">
+		<i class="fa fa-plus fa-2x"></i>
+		<div class="type-message_input">
+			<input type="text" name="">
+			<i class="fa fa-smile-o"></i>
+			<span class="record-message">
+				<i class="fa fa-microphone"></i>
+			</span>
+		</div>
+
+	</div>
 
 </body>
 </html>
